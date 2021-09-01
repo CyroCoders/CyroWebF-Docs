@@ -13,6 +13,7 @@ jobs:
   Make_Docs:
     runs-on: ubuntu-latest
     steps:
+      - run: sphinx-build . ./docs/
       - run: make dirhtml
       - run: cp -a _build/dirhtml/. ./docs
       - run: make clean
