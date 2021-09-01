@@ -13,6 +13,8 @@ jobs:
   Make_Docs:
     runs-on: ubuntu-latest
     steps:
+      - run: python3.9 -m pip install sphinx==3.5.4
+      - run: pip install sphinx-press-theme
       - run: sphinx-build . ./docs/
       - run: make dirhtml
       - run: cp -a _build/dirhtml/. ./docs
