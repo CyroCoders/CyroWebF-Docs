@@ -6,7 +6,7 @@ Getting Started
    :caption: Contents:
 
 .. note::
-    Using Latest Version Is Production Is Not Recommended. Please Use A Specific Version.
+    Using Latest Version In Production Is Not Recommended. Please Use A Specific Version.
 
 Get Latest Version
 ^^^^^^^^^^^^^^^^^^
